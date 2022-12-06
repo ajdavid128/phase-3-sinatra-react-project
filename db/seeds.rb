@@ -61,4 +61,5 @@ Print.create(title: "Love Records", year: 2021, edition_size: "open", category: 
 # Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
 # Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
 
+
 puts "✅ Done seeding!"

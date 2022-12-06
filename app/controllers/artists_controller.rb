@@ -12,11 +12,11 @@ class ArtistsController < ApplicationController
         Artist.create(params).to_json
     end
 
-    patch '/artists/:id' do
-        artists = Artist.find(params[:id])
-        artists.update() # <- list what specific attribute we want to update
-        artists.to_json
-    end
+    # patch '/artists/:id' do
+    #     artists = Artist.find(params[:id])
+    #     artists.update() # <- list what specific attribute we want to update
+    #     artists.to_json
+    # end
 
     delete '/artists/:id' do
         artists = Artist.find(params[:id])

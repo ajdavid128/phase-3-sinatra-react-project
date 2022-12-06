@@ -3,8 +3,7 @@ class CreatePrintTable < ActiveRecord::Migration[6.1]
     create_table :prints do |t|
       t.string :title
       t.integer :year
-      t.integer :edition_size
-      t.integer :layers
+      t.string :edition_size
       t.string :category
       t.string :sub_category
       t.string :image_url

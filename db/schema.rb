@@ -23,8 +23,7 @@ ActiveRecord::Schema.define(version: 2022_12_06_021421) do
   create_table "prints", force: :cascade do |t|
     t.string "title"
     t.integer "year"
-    t.integer "edition_size"
-    t.integer "layers"
+    t.string "edition_size"
     t.string "category"
     t.string "sub_category"
     t.string "image_url"

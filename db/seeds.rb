@@ -1,34 +1,29 @@
 puts "🌱 Seeding spices..."
 
-johnny_d = Artist.create(name: "Johnny Dombrowski", location: "New York, NY", bio: "Johnny is an award-winning comic-style illustrator.", artist_photo: "https://artvee.com/saconud/Johnny-Dombrowski.jpg", website_url: "http://www.johnnydombrowski.com/")
+johnny_d = Artist.create(name: "Johnny Dombrowski", location: "New York, NY", bio: "Johnny is an award-winning comic-style illustrator.", artist_photo: "https://artvee.com/saconud/Johnny-Dombrowski.jpg", website_url: "http://www.johnnydombrowski.com/", instagram: "@jdombrowski")
 Print.create(title: "Phish Halloween Gig Poster", year: 2021, edition_size: "1500", category: "concert", sub_category: "", image_url: "https://posterdrops-images.s3.amazonaws.com/art_images/original/250917648_10159625910073556_375919643288880883_n_1635761944.jpg", artist_id: johnny_d.id)
 Print.create(title: "59 Parks: Canyonlands", year: 2017, edition_size: "open", category: "art", sub_category: "", image_url: "https://images.squarespace-cdn.com/content/v1/53441c11e4b0f9ffdd2e83f9/1508275194555-0JXFE9ESPQ3DC1YKCOQH/59PS_Canyonlands_Final.jpg?format=1500w", artist_id: johnny_d.id)
 Print.create(title: "Shaun Of The Dead", year: 2019, edition_size: "300", category: "movie", sub_category: "", image_url: "https://images.squarespace-cdn.com/content/v1/53441c11e4b0f9ffdd2e83f9/1556640022580-I8WR99B5OJF0QNY7G1SI/Dombrowski_SOTD_Sm_1024x1024.jpg?format=1500w", artist_id: johnny_d.id)
 
-drew_m = Artist.create(name: "Drew Millward", location: "Leeds, England", bio: "Drew likes to draw ‘the old fashioned way’, using pencils, pens and a love of the craft of illustration, but is incresingly reliant on digital methods to create his work. While his subject matter can vary dramatically, he hopes that the attention to detail and the love of drawing is apparent throughout his work.", artist_photo: "", website_url: "http://www.drewmillward.portfoliobox.me/")
+drew_m = Artist.create(name: "Drew Millward", location: "Leeds, England", bio: "Drew likes to draw ‘the old fashioned way’, using pencils, pens and a love of the craft of illustration, but is incresingly reliant on digital methods to create his work. While his subject matter can vary dramatically, he hopes that the attention to detail and the love of drawing is apparent throughout his work.", artist_photo: "", website_url: "http://www.drewmillward.portfoliobox.me/", instagram: "@drewmillward")
 # NEED TO ADD: drew_m artist_photo
-Print.create(title: "Umphrey's McGee Gig Poster", year: 2022, edition_size: "850", category: "concert", sub_category: "", image_url: "https://farm66.staticflickr.com/65535/52179507979_21fa098f65_z.jpg", artist_id: drew_m)
-Print.create(title: "Death Party", year: 2020, edition_size: "100", category: "art", sub_category: "social issues", image_url: "https://printsofthieves.co.uk/shop/wp-content/uploads/2022/10/deathfinal.webp", artist_id: drew_m)
-Print.create(title: "The Creep Parade 2", year: 2022, edition_size: "120", category: "art", sub_category: "", image_url: "https://printsofthieves.co.uk/shop/wp-content/uploads/2022/04/Creep-Parade-2.jpg", artist_id: drew_m)
+Print.create(title: "Umphrey's McGee Gig Poster", year: 2022, edition_size: "850", category: "concert", sub_category: "", image_url: "https://farm66.staticflickr.com/65535/52179507979_21fa098f65_z.jpg", artist_id: drew_m.id)
+Print.create(title: "Death Party", year: 2020, edition_size: "100", category: "art", sub_category: "", image_url: "https://printsofthieves.co.uk/shop/wp-content/uploads/2022/10/deathfinal.webp", artist_id: drew_m.id)
+Print.create(title: "The Creep Parade 2", year: 2022, edition_size: "120", category: "art", sub_category: "", image_url: "https://printsofthieves.co.uk/shop/wp-content/uploads/2022/04/Creep-Parade-2.jpg", artist_id: drew_m.id)
 
-faith_s = Artist.create(name: "Faith Sponsler (Augury Press)", location: "Portland, OR", bio: "Faith is mainly a block printer, and her prints often focus on astrology, song lyrics, cats, Danny DeVito and other fun things", artist_photo: "https://i.etsystatic.com/15947738/c/1322/1050/678/265/il/4ac670/3924726158/il_570xN.3924726158_iyl2.jpg", website_url: "https://www.augurypress.com/")
-Print.create(title: "Mushroom Cowboy", year: 2022, edition_size: "open", category: "art", sub_category: "block", image_url: "https://i.etsystatic.com/15947738/r/il/a219c0/4335341010/il_fullxfull.4335341010_805p.jpg", artist_id: faith_s.id)
-Print.create(title: "Danny DeVito", year: , edition_size: "", category: "", sub_category: "", image_url: "https://www.augurypress.com/listing/1021611893/danny-devito-print-always-sunny-always", artist_id: faith_s.id)
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: faith_s.id)
+faith_s = Artist.create(name: "Faith Sponsler (Augury Press)", location: "Portland, OR", bio: "Faith is mainly a block printer, and her prints often focus on astrology, song lyrics, cats, Danny DeVito and other fun things.", artist_photo: "https://i.etsystatic.com/15947738/c/1322/1050/678/265/il/4ac670/3924726158/il_570xN.3924726158_iyl2.jpg", website_url: "https://www.augurypress.com/", instagram: "@augurypress")
+Print.create(title: "Danny DeVito", year: 2021, edition_size: "open", category: "art", sub_category: "", image_url: "https://www.augurypress.com/listing/1021611893/danny-devito-print-always-sunny-always", artist_id: faith_s.id)
+Print.create(title: "Mushroom Cowboy", year: 2022, edition_size: "open", category: "art", sub_category: "", image_url: "https://i.etsystatic.com/15947738/r/il/a219c0/4335341010/il_fullxfull.4335341010_805p.jpg", artist_id: faith_s.id)
+Print.create(title: "Stella Blue", year: 2020, edition_size: "open", category: "art nouveau", sub_category: "", image_url: "https://i.etsystatic.com/15947738/r/il/0f92e1/3060596181/il_fullxfull.3060596181_td1n.jpg", artist_id: faith_s.id)
 
-Artist.create(name: "", location: "", bio: "", artist_photo: "", website_url: "")
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
+paul_k = Artist.create(name: "Paul Kreizenbeck", location: "Portland, OR", bio: "Paul is a graphic designer interested in illustration, printmaking, identity design, and packaging.", artist_photo: "https://i.pinimg.com/280x280_RS/21/8b/75/218b758e5debdde5dbc6f2afb609bf71.jpg", website_url: "http://paulkreizenbeck.com/", instagram: "@pkreizenbeck")
+Print.create(title: "Fungal Forest", year: 2020, edition_size: "50", category: "art", sub_category: "", image_url: "http://paulkreizenbeck.com/wp-content/uploads/2020/03/Art-Print-FB-1541x2048.jpg", artist_id: paul_k.id)
+Print.create(title: "Billy Strings Gig Poster", year: 2021, edition_size: "300", category: "concert", sub_category: "", image_url: "http://paulkreizenbeck.com/wp-content/uploads/2022/03/Billy-Strings-Final.jpg", artist_id: paul_k.id)
+Print.create(title: "Mike Gordon Gig Poster", year: 2018, edition_size: "150", category: "concert", sub_category: "", image_url: "http://paulkreizenbeck.com/wp-content/uploads/2018/06/mike-gordon-los-angeles-poster-gigposter-by-paul-kreizenbeck-fullsize.jpg", artist_id: paul_k.id)
 
-Artist.create(name: "", location: "", bio: "", artist_photo: "", website_url: "")
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-
-Artist.create(name: "", location: "", bio: "", artist_photo: "", website_url: "")
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
-Print.create(title: "", year: , edition_size: "", category: "", sub_category: "", image_url: "", artist_id: )
+marq_s = Artist.create(name: "Marq Spusta", location: "Bay Area, CA", bio: "Marq Spusta is an artist type of fellow. He gets into a variety of projects, from designing concert posters to exhibiting intricate paintings. He has a particularly whimsical style and always prints on beautiful, often shimmery metallic paper.", artist_photo: "http://trps.org/wp-content/uploads/2012/08/IMG_6416.jpg", website_url: "http://marqspusta.com/", instagram: "@spustastudio")
+Print.create(title: "Jerry Garcia Bicycle Day", year: 2017, edition_size: "25", category: "art", sub_category: "", image_url: "http://marqspusta.com/wp-content/gallery/jerrybicycle/thumbs/thumbs_Screen-Shot-2017-04-26-at-12.02.01-PM.png", artist_id: marq_spusta.id)
+Print.create(title: "Trey Anastasio Band Gig Poster", year: 2022, edition_size: "350", category: "concert", sub_category: "", image_url: "http://marqspusta.com/wp-content/gallery/treygreek/Screen-Shot-2022-10-08-at-12.32.46-PM.png", artist_id: marq_spusta.id)
+Print.create(title: "Distanced In The Depths", year: 2021, edition_size: "300", category: "art", sub_category: "", image_url: "http://marqspusta.com/wp-content/gallery/depths/thumbs/thumbs_Screen-Shot-2021-07-13-at-1.54.12-PM.png", artist_id: marq_spusta.id)
 
 puts "✅ Done seeding!"

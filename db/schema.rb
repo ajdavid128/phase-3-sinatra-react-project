@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_06_021421) do
+ActiveRecord::Schema.define(version: 2022_12_06_193518) do
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2022_12_06_021421) do
     t.string "bio"
     t.string "website_url"
     t.string "artist_photo"
+    t.string "instagram"
   end
 
   create_table "prints", force: :cascade do |t|

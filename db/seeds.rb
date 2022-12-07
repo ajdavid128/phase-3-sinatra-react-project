@@ -16,7 +16,7 @@ Print.create(title: "Death Party", year: 2020, edition_size: "100", category: "a
 Print.create(title: "The Creep Parade 2", year: 2022, edition_size: "120", category: "art", sub_category: "", image_url: "https://printsofthieves.co.uk/shop/wp-content/uploads/2022/04/Creep-Parade-2.jpg", artist_id: drew_m.id)
 
 faith_s = Artist.create(name: "Faith Sponsler (Augury Press)", location: "Portland, OR", bio: "Faith is mainly a block printer, and her prints often focus on astrology, song lyrics, cats, Danny DeVito and other fun things.", artist_photo: "https://i.etsystatic.com/15947738/c/1322/1050/678/265/il/4ac670/3924726158/il_570xN.3924726158_iyl2.jpg", website_url: "https://www.augurypress.com/", instagram: "@augurypress")
-Print.create(title: "Danny DeVito", year: 2021, edition_size: "open", category: "art", sub_category: "", image_url: "https://www.augurypress.com/listing/1021611893/danny-devito-print-always-sunny-always", artist_id: faith_s.id)
+Print.create(title: "Danny DeVito", year: 2021, edition_size: "open", category: "art", sub_category: "", image_url: "https://i.etsystatic.com/15947738/r/il/d28e96/3138620321/il_794xN.3138620321_sfoa.jpg", artist_id: faith_s.id)
 Print.create(title: "Mushroom Cowboy", year: 2022, edition_size: "open", category: "art", sub_category: "", image_url: "https://i.etsystatic.com/15947738/r/il/a219c0/4335341010/il_fullxfull.4335341010_805p.jpg", artist_id: faith_s.id)
 Print.create(title: "Stella Blue", year: 2020, edition_size: "open", category: "art nouveau", sub_category: "", image_url: "https://i.etsystatic.com/15947738/r/il/0f92e1/3060596181/il_fullxfull.3060596181_td1n.jpg", artist_id: faith_s.id)
 

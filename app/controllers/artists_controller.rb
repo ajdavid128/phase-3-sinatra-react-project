@@ -1,7 +1,7 @@
 class ArtistsController < ApplicationController
 
     get '/artists' do
-        Artist.all.to_json
+        Artist.order(:name).to_json
     end
 
     get '/artists/:id' do

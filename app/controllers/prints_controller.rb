@@ -8,6 +8,10 @@ class PrintsController < ApplicationController
         Print.find(params[:id]).to_json
     end
 
+    get '/prints/images/all' do 
+        Print.all.map {|p| p.image_url}.to_json
+    end
+
     post '/prints' do 
         Print.create(params).to_json
     end

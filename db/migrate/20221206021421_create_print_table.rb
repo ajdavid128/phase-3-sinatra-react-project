@@ -5,7 +5,6 @@ class CreatePrintTable < ActiveRecord::Migration[6.1]
       t.integer :year
       t.string :edition_size
       t.string :category
-      t.string :sub_category
       t.string :image_url
       t.integer :artist_id
     end

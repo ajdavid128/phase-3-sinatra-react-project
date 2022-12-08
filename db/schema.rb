@@ -26,7 +26,6 @@ ActiveRecord::Schema.define(version: 2022_12_06_193518) do
     t.integer "year"
     t.string "edition_size"
     t.string "category"
-    t.string "sub_category"
     t.string "image_url"
     t.integer "artist_id"
   end

@@ -18,7 +18,7 @@ class PrintsController < ApplicationController
 
     patch '/prints/:id' do
         prints = Print.find(params[:id])
-        prints.update(sub_category: params[:sub_category]) # <- list what specific attribute we want to update
+        prints.update(category: params[:category]) # <- list what specific attribute we want to update
         prints.to_json
     end
 

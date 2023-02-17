@@ -30,6 +30,8 @@ Print.create(title: "Jerry Garcia Bicycle Day", year: 2017, edition_size: "25", 
 Print.create(title: "Trey Anastasio Band Gig Poster", year: 2022, edition_size: "350", category: "concert", image_url: "http://marqspusta.com/wp-content/gallery/treygreek/Screen-Shot-2022-10-08-at-12.32.46-PM.png", artist_id: marq_s.id)
 Print.create(title: "Distanced In The Depths", year: 2021, edition_size: "300", category: "art", image_url: "http://marqspusta.com/wp-content/gallery/depths/thumbs/thumbs_Screen-Shot-2021-07-13-at-1.54.12-PM.png", artist_id: marq_s.id)
 
+madalyn_s = Artist.create(name: "Madalyn Stefanak", location: "Queens, NY", bio: "Hi :) I am an artist and musician from Ohio/NYC. Let’s work together! :) :) :) Email me for commissions, madalynstefanak@gmail.com, or contact me below. I grew up in Cleveland, Ohio and currently live in Queens, NY. I care about music, art, and climate change. Voted “best sense of humor” in high school. I love working from a prompt and making things with a physical product in mind.", artist_photo: "https://images.squarespace-cdn.com/content/v1/5a9eb44db98a7877c8354b13/ac9347f6-b4de-4011-940e-1203b2a4d225/pol2.jpg?format=1500w", website_url: "https://www.madstefanak.com/", instagram: "@madalynstefanak")
+Print.create(title: "Indigo Girls Summer Tour", year: 2022, edition_size: "500", category: "concert", image_url: "https://images.squarespace-cdn.com/content/v1/5a9eb44db98a7877c8354b13/1656691813483-P0VHU8EX2FBXYUUYD90I/indigos+summer+post.jpg?format=1000w", artist_id: madalyn_s.id)
 
 # AARON'S SEEDS
 
@@ -58,7 +60,7 @@ Print.create(title: "Silkscreen Is Easy!!!", year: 2021, edition_size: "monoprin
 Print.create(title: "Print Shop", year: 2020, edition_size: "open", category: "poster print", image_url: "https://thelittlefriendsofprintmaking.com/oops/images/printshop.gif", artist_id: tlfop.id)
 Print.create(title: "Love Records", year: 2021, edition_size: "open", category: "marketing poster print", image_url: "https://thelittlefriendsofprintmaking.com/oops/images/love_records.gif", artist_id: tlfop.id)
 
-# Artist.create(name: "", location: "", bio: "", artist_photo: "", website_url: "")
+# Artist.create(name: "", location: "", bio: "", artist_photo: "", website_url: "", instagram: "@")
 # Print.create(title: "", year: , edition_size: "", category: "", image_url: "", artist_id: )
 # Print.create(title: "", year: , edition_size: "", category: "", image_url: "", artist_id: )
 # Print.create(title: "", year: , edition_size: "", category: "", image_url: "", artist_id: )

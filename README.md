@@ -2,7 +2,7 @@
 
 Welcome to the backend of THE ARCHIVE!
 
-This Ruby repository was designed in tandem with a [React single-page application](https://github.com/ajdavid128/phase-3-group-project-front-end-react) by Leah Cardoz and Aaron David for their Phase 3 software engineering group project at Flatiron School (1 week to build).
+This Ruby repository was designed in tandem with a [React single-page application](https://github.com/ajdavid128/phase-3-group-project-front-end-react) by [Leah Cardoz](https://github.com/lcardoz) and [Aaron David](https://github.com/ajdavid128) for their Phase 3 software engineering group project at Flatiron School (1 week to build).
 
 ## Project Details & Motivation:
 

@@ -1,3 +1,5 @@
+![THE ARCHIVE Logo](images/archive-readme-logo.png)
+
 # THE ARCHIVE
 
 Welcome to the backend of THE ARCHIVE!
